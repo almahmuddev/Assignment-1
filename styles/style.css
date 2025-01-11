@@ -123,18 +123,18 @@
 }
 .box-1{
     background-color: #b4caef;
-    width: 410px;
+    width: 370px;
     border-radius: 16px;
     padding: 32px;
 }
 .box-2{
-    width:410px;
+    width:370px;
     background-color: #C6E4D6;
     border-radius: 16px;
     padding: 32px;
 }
 .box-3{
-    width:410px;
+    width:370px;
     background-color: #F7EBCF;
     border-radius: 16px;
     padding: 32px;
@@ -376,8 +376,9 @@
     width: 750px;
     height: 56px;
     background-color: #ffffff;
-    justify-content: space-around;
-    border-radius:  15px 0 0  15px ;
+    justify-content: space-between;
+    border-radius:  15px ;
+    display: flex;
 }
 .subs input{
     border: none;
@@ -385,8 +386,7 @@
     color: #0E0E0E;
     opacity: 30%;
     padding: 18px 40px;
-    align-items: start;
-    
+    align-items: start;  
 }
 .subs button{
     border: none;
