@@ -12,14 +12,15 @@
 #two{
     width: 1600px;
     height: auto;
-    /* background-color: rgba(17, 183, 239, 0.627); */
+    background-color:#F1F1F3;
+    /* padding: 0 119px; */
 }
 .banner{
     background-color: #C6E4D6;
     display: flex;
     width: 1360px;
     justify-content: space-between;
-    margin: 20px auto;
+    margin: 20px auto;     /*here somethimg is nor working for current device responcive */
     border-radius: 24px;
 }
 .banner p{
@@ -51,6 +52,9 @@
 .b-twice{
     padding: 80px 100px 80px 0;
 }
+
+             /* second part design */
+
 .secondary{
     margin: 80px 0 ;
 }
@@ -72,15 +76,119 @@
     border-radius: 16px;
     border: 1px solid #dadada;
     flex: 1;
-}
-.s-once img, .s-twice img, .s-thrice img, .s-fourth img{
     padding: 24px;
 }
 .s-once h5, .s-twice h5, .s-thrice h5, .s-fourth h5{
     font-size: 20px;
     font-weight: bold;
-    padding: 0 24px 12px 24px;
+    margin: 24px 0 12px 0 ;
+    color: #0E0E0E;
 }
 .s-once p, .s-twice p, .s-thrice p, .s-fourth p{
-    padding: 0 24px 24px 24px;
+    color: #0E0E0E;
+    font-size: 16px;
 }
+.vision{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin: 0 160px 0 160px; 
+}
+.vision h3{
+    width: 1280px;
+    height: 48px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.vision p{
+    width: 1280px;
+    height: 48px;
+    margin: 24px 0 32px ;
+    font-size: 16px;
+}
+.vision-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1280px;
+    height: 325px;
+    gap: 24px;
+}
+.box-1{
+    background-color: #b4caef;
+    width: 320px;
+    border-radius: 16px;
+    padding: 32px;
+}
+.box-2{
+    width:320px;
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+.box-3{
+    width:320px;
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+.box-1:hover{
+    background-color: #006A50;
+}
+.box-2:hover{
+    background-color: #e9ba54;
+}
+.box-3:hover{
+    background-color: #b4caef;
+}
+
+.box-1 h5, .box-2 h5, .box-3 h5{
+    font-size: 20px;
+    font-weight: bold;   
+    color: #0E0E0E;
+    margin-top: 24px;
+}
+.box-1 p, .box-2 p, .box-3 p{
+    font-size: 16px;
+    line-height: 24px;
+    width: 410px;
+}
+.box-btn{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    background:none;
+    border: none;
+    border-radius: 8px;
+    background-color: #5490F5;
+}
+.box-btn2{
+    color: #ffffff;
+    padding: 11px 20px;
+    background:none;
+    border: none;
+    border-radius: 8px;
+    background-color: #09A15C;
+}
+.box-btn3{
+    color: #ffffff;
+    padding: 11px 20px;
+    background:none;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFC239;
+}
+
+.paragraph{
+    background-color: #C6E4D6;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    
+    margin: 100px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
