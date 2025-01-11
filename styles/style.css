@@ -88,10 +88,14 @@
     color: #0E0E0E;
     font-size: 16px;
 }
+
+        /* vision section design */
+
+
 .vision{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     margin: 0 160px 0 160px; 
 }
@@ -106,6 +110,8 @@
     height: 48px;
     margin: 24px 0 32px ;
     font-size: 16px;
+    color: #0E0E0E;
+    opacity: 70%;
 }
 .vision-box{
     display: flex;
@@ -117,18 +123,18 @@
 }
 .box-1{
     background-color: #b4caef;
-    width: 320px;
+    width: 410px;
     border-radius: 16px;
     padding: 32px;
 }
 .box-2{
-    width:320px;
+    width:410px;
     background-color: #C6E4D6;
     border-radius: 16px;
     padding: 32px;
 }
 .box-3{
-    width:320px;
+    width:410px;
     background-color: #F7EBCF;
     border-radius: 16px;
     padding: 32px;
@@ -182,13 +188,191 @@
 }
 
 .paragraph{
-    background-color: #C6E4D6;
+    background-color: #ffffff;
     background-image: url(../assets/quote-bg.png);
+    background-position: 24px 25px;
     background-repeat: no-repeat;
-    
-    margin: 100px 0;
-    padding: 20px;
-    border-radius: 10px;
+    margin: 32px 80px;
+    padding: 48px 24px 0 24px ;
+    width:  1280px;
 }
 
+           /* recent news design */
 
+.description{
+    margin: 80px 160px 32px 160px;
+}
+.description h3{
+    height: 48px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.description p{
+    width: 1280px;
+    height: 48px;
+    font-size: 16px;  
+    color: #0E0E0E;
+    opacity: 70%;  
+}
+.first-topic{
+    margin: 32px 160px 80px 160px;
+}
+.first{
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 24px;
+}
+.first-img{
+    border-radius: 24px;
+    margin: 48px;
+}
+.pera{
+    padding: 56px 48px 56px 0;
+}
+.pera-2{
+    padding: 56px 48px 56px 48px;
+}
+.pera h4, .pera-2 h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+.pera-img{
+    margin: 12px 0 16px 0;
+}
+.pera p, .pera-2 p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #0E0E0E;
+    opacity: 70%;  
+}
+.des-btn{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    background:none;
+    border: none;
+    border-radius: 8px;
+    background-color: #006A50;
+    margin: 16px 0 0 0 ;
+}
+.donate{
+    margin: 0 160px;
+}
+.donate h3{
+    text-align: center;
+    height: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.donate p{
+    text-align: center;
+    width: 1280px;
+    height: 48px;
+    font-size: 16px;  
+    color: #0E0E0E;
+    opacity: 70%;  
+}
+.boxes{
+    width: 1071px;
+    height: 128px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.boxx-1, .boxx-3{
+    background-color: #ffffff;
+    border: 1px solid #dadada ;
+    border-radius: 16px;
+    width: 240px;
+    text-align: center;
+    flex: auto;
+}
+.boxx-4{
+    background-color: #ffffff;
+    border: 1px solid #dadada ;
+    border-radius: 16px;
+    width: 280px;
+    text-align: center; 
+}
+.boxx-1:hover{
+    background-color: #C6E4D6;
+}
+.boxx-3:hover{
+    background-color: #C6E4D6;  
+}
+.boxx-4:hover{
+    background-color: #C6E4D6;
+}
+.boxx-2{
+    background-color: #C6E4D6;
+    border: 1px solid #dadada ;
+    border-radius: 16px;
+    width: 240px;
+    text-align: center;
+}
+.boxx-2:hover{
+    background-color: #ffffff;
+}
+.boxx-1 h2, .boxx-2 h2, .boxx-3 h2, .boxx-4 h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    opacity: 80%;
+    align-items: center;
+    padding: 40px;
+}
+.placehold{
+    background-color: #ffffff;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.inp{
+    border:none;
+    padding: 20px 0;
+    color: #0E0E0E;
+    opacity: 30%;
+}
+.place{
+    text-align: center;
+}
+.subscribe{
+    margin: 80px 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+    padding: 80px 265px;
+}
+.subscribe h3{
+    text-align: center;
+    height: 48px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.subscribe p{
+    width: 622px;
+    margin-bottom: 24px;
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 16px;
+    line-height: 24px;
+}
+.subs{
+    width: 750px;
+    height: 56px;
+    background-color: #ffffff;
+}
+.subs input{
+    border: none;
+    width: 70%;
+}
+.subs button{
+    border: none;
+    background-color: transparent;
+    width: 30%;
+}
